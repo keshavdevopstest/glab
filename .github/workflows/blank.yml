@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello Keshav!"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
       - name: Print goodbye
         run: echo "Done - bye!"
       - name: last stage
